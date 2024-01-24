@@ -1,0 +1,1 @@
+export { default } from "file:///Users/sam/workspace/nuxt-vuetify-tailwind/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
