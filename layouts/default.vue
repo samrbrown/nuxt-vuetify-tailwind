@@ -3,7 +3,7 @@
         <v-layout>
             <v-navigation-drawer permanent>
                 <v-list nav>
-                    <v-menu :location="'end'" class="ml-4" :offset="15">
+                    <v-menu :location="'end'" :offset="15">
                         <template v-slot:activator="{ props }">
                             <v-list-item v-bind="props" prepend-icon="mdi-account-circle" title="Sam Brown" subtitle="samraymondbrown@googlemail.com" value="accountName"></v-list-item>
                         </template>
@@ -22,8 +22,8 @@
                     <v-list-item nuxt to="/account-name/briefs" prepend-icon="mdi-chess-pawn" title="Briefs" value="Briefs"></v-list-item>
                 </v-list>
             </v-navigation-drawer>
-            <v-main>
-                <slot />
+            <v-main scrollable>
+              <slot />
             </v-main>
         </v-layout>
     </v-app>
