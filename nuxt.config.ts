@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     }
   },
   build: {
-    transpile: ['vuetify'],
+    transpile: ['vuetify', 'echarts'],
   },
   modules: [
     (_options, nuxt) => {

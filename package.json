@@ -21,6 +21,9 @@
     "vuetify": "^3.5.1"
   },
   "dependencies": {
-    "@mdi/font": "^7.4.47"
+    "@mdi/font": "^7.4.47",
+    "echarts": "^5.4.3",
+    "tailwindcss-fluid-type": "^2.0.3",
+    "vue-echarts": "^6.6.8"
   }
 }
